@@ -1,2 +1,3 @@
 # 2-out-of-2-visual-cryptography
 k OUT OF n VISUAL CRYPTOGRAPHY ALGORITHMS The proposed algorithm for visual cryptography is used to generate n shares using the encryption algorithms with a specified value of k and n. All n shares are used to generate a recovered image, which is the encrypted version of the input image, which is then decrypted by simply stacking k shares together.
+When n=2, we apply the 2-out-of-2 scheme, this scheme generates two shares. The two shares (binary images) and consisting of exactly two pixels for each pixel in the secret image; every secret pixel of the image is converted into two shares. The two participants can recover the secret pixel by superimposing the two shared subpixels simply by stacking two shares together.
